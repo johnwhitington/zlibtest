@@ -12,6 +12,6 @@ OCAMLLDFLAGS = -g
 all : $(TARGETS)
 
 clean ::
-	rm -rf doc foo foo2 out.pdf out2.pdf *.cmt *.cmti
+	rm -rf doc foo foo2 out.txt *.cmt *.cmti
 
 -include OCamlMakefile
